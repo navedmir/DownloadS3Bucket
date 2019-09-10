@@ -1,6 +1,6 @@
 # DownloadS3Bucket
 
-  Downloads all objects in a given S3 bucket recursively and saves them locally.
+  Downloads all objects in a given S3 bucket recursively and saves them locally using node.js.
 
 
 #### Set Env variables
