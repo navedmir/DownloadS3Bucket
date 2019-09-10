@@ -1,0 +1,29 @@
+{
+  "name": "downloads3bucket",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node dist/app.js",
+    "test": "jest --coverage"
+  },
+  "author": "Naved Mir",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.525.0",
+    "babel-jest": "^24.9.0",
+    "bluebird": "^3.5.5",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "core-js": "^3.2.1",
+    "jest": "^24.9.0",
+    "jest-html-reporters": "^1.1.8",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "keywords": [],
+  "description": "Download all objects in a given S3 bucket recursively and saves them locally"
+}
