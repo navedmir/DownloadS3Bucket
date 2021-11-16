@@ -11,7 +11,7 @@
   "author": "Naved Mir",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.525.0",
+    "aws-sdk": "^2.814.0",
     "babel-jest": "^24.9.0",
     "bluebird": "^3.5.5",
     "dotenv": "^8.1.0"
